@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:graphx/graphx.dart';
 
-import 'native/native_utils.dart';
 import 'scene/home.dart';
 
 void main() {
@@ -11,7 +10,6 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    NativeUtils.closeLoader();
     return MaterialApp(
       title: 'Fika Coffee',
       debugShowCheckedModeBanner: false,
